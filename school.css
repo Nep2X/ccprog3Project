@@ -1,0 +1,108 @@
+body{
+    
+    
+    
+    background-color: #a59d84;
+
+/*body{
+    scroll-behavior: smooth;
+    background-image: url('C:\\Users\\NEP\\Documents\\COLLEGE FILES\\2ND YEAR_2ST_SEM\\CCPROG3\\PROJECT\\images\\titlebackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    min-width: 500px;
+    margin-top: 50px;
+    height: 100vw;
+    background-color: #a59d84;*/
+}
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    min-width: 1450px;
+    opacity: 63%;
+    
+}
+
+.title{
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    font-size: 80px;
+    text-align: center;
+    font-family: georgia;
+    color: #cdc09a;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.loginDiv{
+    opacity: 85%;
+    margin-left: 20vw;
+    margin-top: 200px;
+    font-family: georgia;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 200px;
+    
+    width: 56vw;
+    height: 280;
+    background-color: #cdc09a;
+    text-align: center;
+    border-radius: 30px;
+}
+.loginDiv input{
+    margin-left: 10px;
+    background-color: #ecebde;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+.loginDiv input[type=text], select{
+    font-family: georgia;
+    padding-left: 20px;
+}
+.loginDiv input[type=checkbox]{
+    width: 20px;
+    background-color: #735e59;
+    position: relative;
+    left: -45px;
+    top: -20px;
+}
+.loginDiv .rememberText{
+    position: relative;
+    top: -28px;
+    left: -40px;
+}
+.loginDiv .btnSubmit{
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    font-family: georgia;
+    background-color: #8b836b;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+.loginDiv p{
+    font-family: Georgia;
+    margin-top: -10px;
+}
+.schoolLogo{
+    
+    width: 100%;
+    height: auto;
+    
+    top: 5px;
+    left: 20px;
+    position: absolute;
+    min-width: 200px;
+    max-width: 300px;
+    width: 25vw;
+}
